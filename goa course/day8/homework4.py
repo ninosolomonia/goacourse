@@ -18,5 +18,5 @@ elif new_goamember==15:
     print("tqven dagericxebat :"+ str(bonus*new_goamember)+"lari")
 else:
     print("ar shecherdet!")    
-total_bonus100=(100*100-37+13)/10*264 
+total_bonus100=100*(100-37+13)/10*264 
 print(total_bonus100)

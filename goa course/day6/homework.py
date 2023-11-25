@@ -13,11 +13,11 @@ mark6=int(input("enter your mark in history: "))
 mark7=int(input("enter your mark in geography: "))
 average_mark= (mark1+mark2+mark3+mark4+mark5+mark6+mark7)/7
 print(average_mark)
-if 9<average_mark<10:
+if average_mark>9 and average_mark<10:
     print("გილოცავ მატრიცელო შენ გადმოგეცა 300 ლარიანი ბანძი ტოსტერი რასაც შეალიე შენი ცხოვრების წლები")
 elif average_mark <5:
     print(" გილოცავ გაექეცი მატრიცას")    
-elif  5<average_mark<9:
+elif  average_mark>5 and average_mark<9:
     print("you are mid") 
-elif average_mark>10 or average_mark<0 :
+else:
     print("there is something wrong with you")     

@@ -6,5 +6,7 @@ my_group=["zuzadze","lobjanidze","atabegashvili","abuladze","papava",
           "labadze","mgeladze","solomnishvili","xaratiahvili","denuradze",
           "miladze","guriko","luka"]
 length=len(my_group)
-print(length)
-print(my_group[9:14])
+#print(length)
+#(23-5)/2
+#print(my_group[9:14])
+print(my_group[9:-9])
