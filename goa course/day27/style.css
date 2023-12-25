@@ -1,0 +1,17 @@
+p{
+   font-size: 50px; 
+   background-color: aquamarine;
+   color: bisque;
+   text-align: center;
+}
+button{
+    font-size: 80px;
+    background-color: black;
+    color: aqua;
+}
+h1{
+    font-size: 80px;
+    background-color: blue;
+    color: brown;
+    text-align: center  ;
+}

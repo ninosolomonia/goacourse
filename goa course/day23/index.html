@@ -1,0 +1,56 @@
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <style>
+        /* როდესაც შენ გადახვალ უკვე გასტილვაზე, კონკრეტულად დაჯგუფებული ემენეტები რომელიც კლასსის მეშვობით დავაჯგუფეთ, ამის არჩევა css ში ხდება .(კლასის სახელი) მაგ: .saxeli {} */
+        .saxeli{
+            color: red;
+        }
+
+        /* id_ის შემთხვევაში შენ იყენებ # */
+        #main-title{
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- მე მინდა რომ რამოდენიმე ელემენტს ჰქონდეს ერთი და იგივე სტილი, ამისთვის მე გამოვიყენებ კლასს რომ დავაჯგუფო ისინი -->
+
+    <p class="saxeli">Luka</p>
+    <p class="saxeli">Nika</p>
+    <p class="saxeli">Sandro</p>
+
+    <!-- როდესაც გაქვს საიტზე ისეთი ელემენტი რომლის სტილიც უნიკალურია ამ დროს ვიყენებთ id -->
+
+    <h1 id="main-title">Hello</h1>
+
+    <!-- თქვენ რომ შეგქმნათ შესატანი ფორმა სადაც შეგეძლებათ მონაცემების შეტანა და გაგზავნა აუცილებელია რომ გამოიყენოთ კონტეინერ თეგი სახელად form ხოლო მასში შეიტან იმ ელემენტებს რომელიც დაკვშირებულია კონკრეტულ ფორმასთან -->
+
+    <form>
+        <!-- label რომ დავაკავშიროთ input წყაროსთან საჭიროა გქონდეთ უნიკალური id რომელსაც for ის მეშვეობით დააკავშირებთ -->
+        <label for="fullname">Please enter your fullname: </label>
+        <input id="fullname" type="text" required>
+        <br>
+        <br>
+        <label for="elposta">Please enter your email: </label>
+        <input id="elposta" type="email" placeholder="Enter email*" required>
+        <br>
+        <br>
+        <label for="paroli">Please enter your password: </label>
+        <input id="paroli" type="password" placeholder="Enter password*" required>
+        <br>
+        <br>
+        <input id="checki" type="checkbox" required> 
+        <label for="checki">Agree this document.</label>
+        <br>
+        <br>
+        <button type="reset">ewfwef</button>
+        <br>
+        <button type ="submit">submit</button>
+    </form>
+</body>
+</html>```

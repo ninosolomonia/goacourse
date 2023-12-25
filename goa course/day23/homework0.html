@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(218, 218, 141);
+        }
+        #texti{
+            background-color: bisque;
+        }
+        #paroli{
+            background-color:rgb(209, 233, 170)
+     
+        }
+        #posta{
+            background-color: rgb(233, 201, 163);
+        }
+
+        h2{
+            color: rgb(198, 10, 10);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ამ გაკვეთილში ჩვენ განვიხილავთ HTML Forms,უფრო კონკრეტულად კი input elements</h1>
+        <nav>
+            <ul>
+                <li><-input type="button"></li>
+                <li><-input  type="checkbox"></li>
+                <li><-input type="color"></li>
+                <li><-input type="date"></li>
+                <li><-input type="email"></li>
+                <li><-input type="password"></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Input Type Text</h2>
+            <p>-input type="text"> defines a single-line text input field:</p>
+            <label for="texti">Please,enter your text</label>
+            <input id="texti" type="text" placeholder="enter text">
+        </section>
+        <section>
+            <h2>Input Type Password</h2>
+            <p>-input type="password"> defines a password field:</p>
+            <label for="paroli">Please,enter your password</label>
+            <input id="paroli" type="password" placeholder="enter your password">
+        </section>
+        <section>
+            <h2>Input Type Email</h2>
+            <p>The <-input type="email"> is used for input fields that should contain
+                 an e-mail address.Depending on browser support, the e-mail address
+                  can be automatically validated when submitted.
+                Some smartphones recognize the email type, and add ".com" to the
+                 keyboard to match email input</p>
+            <label for="posta">Please,enter your email</label>
+            <input id="posta" type="email" placeholder="enter your email">
+
+        </section>
+        <section>
+            <h2>Input Type Checkbox</h2>
+            <p><-input type="checkbox"> defines a checkbox.
+
+                Checkboxes let a user select ZERO or MORE options of a limited
+                 number of choices</p>
+            <label for="check">I love GOA</label>    
+            <input id="check" type="checkbox">
+        </section>
+        <section>
+            <h2>Input Type Button</h2>
+            <p><-input type="button"> defines a button:</p>
+        </section>
+        <section>
+            <h2>Input Type Color</h2>
+            <p>The <-input type="color"> is used for input fields that should contain a color.
+                Depending on browser support, a color picker can show up in the input field.</p>
+        </section>
+        <label for="peri">select your favourite color</label>
+        <input id="peri" type="color">
+    </main>
+    <footer>
+        <a href="https://www.youtube.com/watch?v=TvDSuZCbpQc" target="_blank">For 
+            more information click hier
+        </a>
+    </footer>
+    
+</body>
+</html>
