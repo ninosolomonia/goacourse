@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-div{
+    border:5px solid rgb(212, 13, 13);
+    padding:10px;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.child-div{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+    border:2px solid red;
+}
