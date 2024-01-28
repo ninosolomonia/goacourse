@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rubik+Doodle+Triangles&display=swap');
+
+
+h1{
+    
+    color: blue;
+    font-size: 200px;
+    background-color: rgb(207, 212, 177);
+    text-align: center;
+    font-family:Rubik Doodle Triangles;
+}
+/* color aris property center aris value
+CSS code is made of styling rules
+
+⭐ A rule is made of a selector and a set of declarations
+
+⭐ A declaration consists of a property:value pair */

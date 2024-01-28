@@ -1,0 +1,40 @@
+p{
+    color: aqua;
+}
+.join{
+    color: brown;
+}
+#goa{
+    color: blue;
+}
+#goa{
+    color:#00ffff;
+}
+/*  inline
+    id
+    classes
+    element
+
+
+⭐ RGB is a color model for accessing a wide spectrum of colors
+
+⭐ RGB uses 3 values representing the intensity of red, green and blue
+
+⭐ HEX codes make the representation of colors shorter
+
+
+To ensure the design of your page looks great on any screen, percentages (%) 
+are used to set relative dimensions. This ensures consistent 
+design across different screen sizes.
+
+The default font size for the body of a page in most browsers is 16px
+
+⭐ size in CSS can be measured and set in pixels (px), and percentages (%)
+
+⭐ percentages % allow for more responsive designs, adjusting based on the dimensions
+ of parent elements
+*/
+.poto{
+    width: 550px;
+    height: 200px;
+}
