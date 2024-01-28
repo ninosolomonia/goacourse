@@ -1,0 +1,43 @@
+/* ul{
+    list-style-type:circle;
+    list-style-position: inside;
+}
+tu gvinda gadavitanot  wertilebi centrshi liatr-style-position:inside */
+ul{
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+    margin-left: 400px;
+    list-style-image: url("");
+}
+img{
+    /*transform: rotate(100deg); */
+    transform: translate(220px,50px) rotate(90deg);
+    
+}
+/* mivutitebt ramdeni gradusit gvinda ro mobrundes poto 
+translate(500px) mivutitebt ramdenit gavidet marjvniv
+da meore mnishvnelobit y gerdze
+transform:translateY(300px);
+transform:translateX(100px);
+transform:translate(X,Y)
+tu gvinda ro romelime elementi ar gadaiparos mashin unda gavuwerot z-index:10 imistvis romelic 
+gvinda gamochndes da z-index: -1 tu nakleb mnishvnelobani iyos /*
+
+
+
+
+
+/*
+To apply different values to different corners, you can provide a 
+list of 4 values separated by spaces in this order: 
+top-left, top-right, bottom-right, and bottom-left.   
+⭐ The [attribute] selector targets different types of inputs
+
+⭐ The border-radius property makes corners rounded
+
+⭐ Pseudo selectors like :hover and :visited are used to
+ style input elements in different states
+
+input[type="text"] {
+  border: 1px solid #FF9E03;
+  background-color: #17233B;

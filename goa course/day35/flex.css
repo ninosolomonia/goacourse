@@ -1,0 +1,23 @@
+.main-div{
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:flex-start;
+    align-items: center;
+    height: 700px;
+    gap: 20px;
+}
+.div{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+/* display flex viyenebt sul mshobel elementze
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 10px;
+
+}

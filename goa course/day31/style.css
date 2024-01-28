@@ -1,0 +1,100 @@
+/*h1{
+    text-decoration-line: overline;
+    text-decoration-color: blue;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 50%;
+
+} 
+*/
+/*h1{
+    text-decoration: underline blueviolet wavy 5px ;
+}
+*/
+h1{
+    color: black;
+    text-transform: capitalize;
+    /*lowercase capitalize */
+    text-shadow: 0px 0px 4px red; 
+    /* pirveli wevs horizontaluri meore vertikalur dablarva tu gvinda mivutitebt 
+    mag 2px 2px 2px mesame iqneba blaristvis 
+    tu minus davuwert iqneba marcxniv da zemot
+Use text-align: justify to align text to both the left and right edges by 
+adjusting the spacing between words,
+ ensuring that each line has equal width 
+ 
+ 
+You can add text-decoration to convey meaning or draw attention to specific 
+pieces of text, like links
+
+
+    ⭐ text-align controls the horizontal alignment of text
+
+⭐ text-decoration adds decorative effects to text
+
+⭐ text-transform alters the capitalization of text
+
+⭐ text-shadow applies shadow effects behind the text
+
+
+The horizontal offset is how far to the right (positive values) or
+ left (negative values) the shadow will be.
+
+The vertical offset is how far down (positive values) or 
+up (negative values) the shadow will b
+    */
+}
+p{
+    text-indent: 50px; /* gaiweva marjvniv*/
+    letter-spacing: 5px; /*asoebs shoris dashoreba */
+    line-height: 1.8; /* did teqstebshi xazebs shoris dashoreba */
+    word-spacing: 10px; /* sityvebs shoris dashoreba */
+    white-space: nowrap; /*cariel adgilebs gaagrdzelebs qvemot agar chamova ,
+    wrap s tu gavuwert aris chveulebrivi */
+
+ /*generic font family ert-erti aris serif sans-serif   
+ ramdenime fonts vutitebt imistvis rom tu romelome brauzeri ar kitxulobs,iyos damatebit
+    
+}
+h2{
+    font-family: serif;
+    /*Georgia,Times New Roman
+    font-family: sans-serif;
+     Arial,Verdana
+     
+The font-weight property controls the thickness (or boldness) of the text.
+
+Complete the code to give a font thickness of 500     */
+}
+/* overflow-x: hidden; gavuwert body s da agar gamochndeba gasasqroli teqsti marjvniv
+
+⭐ font-family allows you to specify the typeface
+
+⭐ you can use font-weight to control the thickness of the text*/
+a:link,a:visited{
+    background-color: brown;
+    color: rgb(233, 236, 219);
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+a:hover,a:active{
+    background-color: aqua;
+}
+/*
+a:link{
+    color:green;
+    igive rac a magram jobs a:link aris unvisited link
+}
+a:visited[
+    color:red;
+    linki romelzec gadasuli vart
+}
+a:hover{
+    color:pink;
+    es aris mausis mitanis dros ra peri iqneba
+}
+a:active{
+    color:black;
+    roca mauss davachert
+]
+You can remove the underline style by setting the text-decoration property to none.

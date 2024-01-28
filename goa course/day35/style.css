@@ -1,0 +1,34 @@
+input {
+    border:1px solid #FF9E03;
+    box-shadow: 0 0 2px orange;
+    outline: none;  /* es aqrobs shavs daheris dros*/
+  }
+  label {
+    font-weight: bold;
+    color: #FF9E03;
+  }
+
+/*
+input[type="text"] {
+  border: 1px solid #FF9E03;
+  background-color: #17233B;
+}
+ase  mivqvdebit konkretuls inputs 
+border radus 10 procenti inputze iqneb wre  */
+
+.box{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    /*border-top-right-radius: 20px; */
+    border-radius: 20px 60px;  /*zeda macxena da qveda marjvena erti iqneba 
+    da  zeda ,arjvena da qveda marcxena 
+    tu gvaqvs otxi mnishvneloba iwyeba zeda marcxena kutxidan da mtavrdeba qveda marcxena*/
+
+}
+.div{
+    height: 200px;
+    width: 200px;
+    background-color: #FF9E03;
+}

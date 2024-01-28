@@ -1,0 +1,56 @@
+p{
+    color: brown;
+}
+p a{
+    color: rgb(67, 61, 3);
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+    color: black;
+}
+p a:active{
+    color: aqua;
+}
+div{
+    width: 100px;
+    height: 200px;
+    background-color: brown;
+    border-width: 8px;
+    border-style: dashed; /*solid dotted da ase shemde */
+    border-color: aquamarine;
+    border-radius: 50px;
+    /*border shortend aris pirveli width mere style mere peri
+    */
+    border:2px solid brown
+
+}
+/*
+    padding-top: 30px;
+    padding-right: 20;
+    padding-bottom: 15;
+    padding-left: 50;
+    /*shortend iqneba 
+    padding:30px 15px 50px 20px; 
+    padingi arborderis dashoreba borders da kontents shoris
+    box-sizing:border-box;  
+    margin-top
+    margin-right
+    margin-bottom
+    margin-left
+    */
+
+
+/* tablebs
+border-collapse:collapse; */
+/*
+tu davwert
+
+ }
+ sheexeba yvela eleemntnts     
+
+ tu gvinda mivwvdet konkretul rigs tableshi 
+ tr:nth-child(3)
+ prchxilebsi vuwert meramdene rigic gvinda
+ tr:nth-child(odd) am shemtxvevashu shegvidlia mivwtdet luwebs da kent rigebs (even)
+/*   
