@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    border: 1px solid black;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: repeat(3,1fr);
+}
+.item1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 5px;
+}
+.item2{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
