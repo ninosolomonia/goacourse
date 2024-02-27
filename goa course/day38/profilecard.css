@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Kumbh+Sans&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(/day38/images/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: kumbh ,sans-serif;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.div1 img,h2,p{
+    padding: 5px;
+}
+p{
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+}
+h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+b{
+    color: hsl(0, 0%, 59%)
+
+}
+.div1 img{
+    border-radius: 50%;
+    width: 90px;
+    margin-top: 50px;
+}
+.under{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+.under1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding:10px;
+}
+.under2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.under3{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}

@@ -1,0 +1,48 @@
+
+
+/*
+
+transform: scale makes an element bigger or smaller, preserving its aspect ratio.
+The original size has a value of 1, so 
+a value of 2 will double the width and height. 0.5 will halve them.
+You can rotate elements with transform: rotate. 
+Run the code and hold down on the element to rotate it 15 degrees clockwise
+transform:rotate(15deg);
+Negative values result in counter-clockwise rotations.
+By default, rotations take place around the center of the element.
+ Use transform-origin to change the point around which the rotation takes place. 
+
+transform-origin requires the horizontal and vertical position of the new point
+ of reference
+   transform: rotate(30deg);
+  transform-origin: top left;
+
+shegvidzlia gavaertianot 
+transform: translate(100px, 150px) 
+rotate(70deg) scale(1.5);
+
+
+
+position
+static es aris default pozicia
+absolute
+relative left right top bottom
+fixed
+sticky
+
+*/
+.div{
+    width: 300px;
+    height: 400px;
+    background-color: brown;
+    position: relative;
+    left:500px;
+    /*transform: translateX(-50%); amit lifehack gavcentravt */
+    z-index: 1;
+}
+p{
+    position: relative;
+    z-index: 2;
+}
+/*
+absolute s dros chveni divi topis gawerisas ava sul zemot ekranis
