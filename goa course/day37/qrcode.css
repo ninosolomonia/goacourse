@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rubik+Doodle+Triangles&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: lightgray;
+    font-family: url(https://fonts.google.com/specimen/Outfit);
+    background-color: hsl(212, 45%, 89%);
+}
+.main-div{
+    width: 330px;
+    height:500px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    background-color: white;
+
+}
+img{
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+}
+h1,p{
+    padding: 8px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+p{
+    font-size: 17px;
+    color: hsl(220, 15%, 55%);
+}
