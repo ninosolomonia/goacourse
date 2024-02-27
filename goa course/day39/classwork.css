@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30,38%, 92%);
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    width: 750px;
+    height: 600px;
+
+}
+img{
+    height: 100%;
+    width: 380px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.intro-div{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+.intro{
+    width: 50%;
+}
+.perfume{
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 3px;
+    opacity: 70%;
+    font-weight: 500;
+}
+.intro-div h1{
+    font-family: Frauncas;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+.intro{
+    margin: 10px;
+    padding: 10px;
+    opacity: 60%;
+    line-height: 25px;
+}
+.price{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Fraunces,sans-serif;
+    color: hsl(158, 36%, 37%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.old-price{
+    font-size: 15px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    margin: 10px;
+    padding: 10px;
+}
+.button{
+    margin: 20px;
+    padding: 20px 40px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 80%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}

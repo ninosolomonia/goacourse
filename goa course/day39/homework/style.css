@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Heebo:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(/day39/images/wallpaper.jpg);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+    margin-top: 50px;
+}
+.left-header a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.middle-header p{
+    font-family:'Dancing Script',sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.right-header{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.btn1{
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+.btn2{
+    border:1px solid rgb(243, 241, 241);
+    padding: 8px 8px;
+    background-color: rgb(244, 239, 239);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.btn3{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.list1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.list1 li{
+    padding: 12px;
+    margin: 10px;
+    list-style: none;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 70%;
+    border-radius: 20px;
+}
+.list1 :nth-child(1){
+    color: black;
+    background-color:white;
+    opacity: 100%;
+    font-weight: 700;
+
+}
+.main-div{
+    width: 50%;
+}
+h2{
+    font-size: 45px;
+    color: white;
+    margin: 10px;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part2 p{
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+input{
+    margin-top: 15px;
+    width: 70%;
+    height:40px;
+    border-radius: 20px;
+}
+::placeholder{
+    position: relative;
+    left: 20px;
+}
+
+
+.list2{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    list-style: none;
+    
+}
+.list2 li{
+    color: white;
+    
+}

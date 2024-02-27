@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(24, 1, 24);
+    height: 100vh;
+   
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: blue;
+    cursor: pointer;
+}
+.btn1{
+    background-color: rgb(24,1,24);
+    color: grey;
+}
+.btn2{
+    background-color: rgb(28, 153, 159);
+    color: white;
+    padding: 6px 8px;
+    border-radius: 10px;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+h1{
+    color: white;
+    font-size: 65px;
+    font-family:"heebo",sans-serif ;
+    width: 550px;
+    
+}
+.input{
+    width: 550px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(214, 211, 218);
+    position: relative;
+}
+.input p{
+    position: absolute;
+    left: 440px;
+    top: 8px;
+    background-image: linear-gradient(to right,blue,violet);
+    border-radius: 10px;
+    padding: 5px 8px;
+
+}
+input{
+    position: absolute;
+    left: 50px;
+    top: 13px;
+    border: none;
+    width: 350px;
+}
+::placeholder{
+    font-size: 16px;
+    letter-spacing: 1px;
+    
+}
+.input img{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.last {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    
+
+}
+.video{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.video,.last p{
+    color: white;
+}
