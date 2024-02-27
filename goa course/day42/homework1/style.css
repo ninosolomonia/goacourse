@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent-element{
+    background-color: rgb(216, 216, 196);
+    width: 800px;
+    height: 600px;
+    display: grid;
+    grid-template-columns:200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+}
+.child-element1{
+    background-color: green;
+    grid-area: 1/1/4/2;
+}
+.child-element2{
+    background-color: greenyellow;
+    grid-area: 1/2/2/4;
+}
+.child-element3{
+    background-color: brown;
+    grid-area:1/4/2/5
+    
+}
+.child-element6{
+    background-color: greenyellow;
+    grid-area: 2/4/4/5;
+}
+.child-element4, .child-element8{
+    background-color: yellow;
+}
+.child-element5, .child-element7{
+    background-color: orange;
+}
