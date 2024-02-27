@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(250deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.568)),url(/day41/homework1/images/earth.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /*background-color: rgb(102, 102, 146); */
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding:20px 10% ; 
+    animation-name: shemosvla;
+    animation-duration: 3s;
+}
+@keyframes shemosvla{
+    from{
+        transform: translateY(-200px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left p{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+.left img{
+    width: 40px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(245, 250, 247);
+    padding: 30px;
+    font-weight: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.right button{
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(102,102,146);
+    border-radius: 20px;
+    border: 1px solid rgb(102, 102, 146);
+}
+.hero{
+    max-width: 80%;
+    margin: auto;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+.hero button{
+    padding:  10px 30px;
+    background-color: rgb(134, 134, 183);
+    border:none;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+.hero p{
+    color: white;
+    font-weight: 900;
+}
+h1{
+    color: white;
+    font-size: 45px;
+}
+.bottom{
+    position: absolute;
+    bottom: 50px;
+    animation-name: animacia;
+    animation-duration: 3s;
+}
+@keyframes animacia{
+    from{
+        transform: translateY(300px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.citata{
+    animation-name: gamosvla;
+    animation-duration: 2s;
+}
+@keyframes gamosvla{
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}

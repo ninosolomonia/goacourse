@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count:3;
+    animation-timing-function: ease;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+@keyframes animation{
+    /*from{
+        background-color: green;
+        transform: translateX(0px);
+    }
+    to{
+        background-color: brown;
+        transform: translateX(300px);
+    } */
+    0%{
+        background-color: green;
+        left: 0;
+        top:0;
+    }
+    25%{
+        background-color: yellow;
+        left: 100px;
+        top: 0px;
+
+    }
+    50%{
+        baclground-color:red;
+        left: 100px;
+        top:100px
+    }
+    75%{
+        background-color: aquamarine;
+        left: 0;
+        top: 100px;
+    }
+
+    100%{
+
+        background-color:green;
+        left: 0; 
+        top: 0;
+    }
+}

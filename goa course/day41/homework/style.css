@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(250deg,#E0D2C7,#44B09E);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    animation-name: elva;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    
+}
+.clouds{
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    animation-name: elv;
+    animation-delay: 0s;
+    animation-duration:8s;
+}
+@keyframes elva{
+    from{
+        background:linear-gradient(250deg,#E0D2C7,#44B09E);
+
+    }
+    to{
+        background: linear-gradient(250deg,#010d13a1,#090011a6,#231602c7);
+
+        
+
+    } 
+   /* 0%{
+        background-image: url(/day41/homework/images/black\ cloud.png);
+        opacity: calc(-100%);
+    }
+    25%{
+        background-image: url(/day41/homework/images/black\ cloud.png);
+        opacity: calc(-100%);
+
+    }
+    50%{
+        background-image: url(/day41/homework/images/black\ cloud.png);
+        opacity: calc(50%);
+    }
+    100%{
+        background-image: url(/day41/homework/images/black\ cloud.png);
+        opacity:calc(100%)
+    }
+
+*/
+}
+.clouds img{
+    width: 400px;
+    height: 350px;
+}
+.img1{
+    animation-name: cloud1;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+}
+.img2{
+    animation-name: cloud2;
+    animation-duration:6s;
+    animation-timing-function: ease-in;
+}
+@keyframes cloud1{
+    /*from{
+        transform: translate(0px);
+    }
+    to{
+
+        transform: translateX(500px);
+        border-radius: 50%;
+        opacity: calc(-10%);
+    }  */
+    0%{
+        opacity:calc(100%);
+        transform: translate(0vh);
+    } 
+    25%{
+        transform: translateX(50vh);
+    }
+    50%{
+        opacity: calc(-100%);
+    }
+    100%{
+        opacity:calc(-100%);
+    } 
+}
+
+@keyframes cloud2{
+    /*from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-500px);
+        border-radius: 50%;
+        opacity: calc(-10%);
+    
+    }  
+} */
+    0%{
+        opacity:calc(100%);
+        transform: translate(0vh);
+    } 
+    50%{
+        transform: translateX(-50vh);
+        opacity: calc(100%);
+    }
+    50%{
+        opacity: calc(-100%);
+    }
+    100%{
+        opacity:calc(-100%);
+    } 
+} 
+.raindrops{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    animation-name: drops;
+}
+.raindrops img{
+    width: 30px;
+    animation-name: drops;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    opacity: calc(-1%);
+
+}
+@keyframes drops{
+    from{
+        transform: translate(0px,-800px);
+
+    }
+    to{
+        transform: translate(0px,800px);
+        opacity: 100%;
+
+    }
+}
