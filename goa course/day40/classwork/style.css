@@ -1,0 +1,52 @@
+
+/*button{
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 1s;
+    /*transition: ease-in; iwyebs swrapad da nela grdzeldeba
+    transition: ease-in-out;  esec egre/*
+}
+
+button:hover{
+    background-color: green;
+    border-radius: 20px;
+}
+.div{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    transition: 3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div:hover{
+    /*transform:translate(500px,500px) */
+    /*transform: rotate(45deg); 
+    transform: scale(1.1) translateY(-10px);
+    /*transform: skewX();transform: skewX(90deg); iwelebax an y gerdzis mimart an skew()
+    
+    
+    transition: width 1s, height 1s, 
+    background-color 1s;
+
+   Use transition-delay to add a waiting time before the transition effect
+    #element {
+  transition: width 2s, 
+  background-color 1s;
+  transition-delay: 2s;
+}
+transition-property:transform;
+transition-duration:0.3s;
+transition-timing-function:ease;
+transition-dalay:0s;
+shorthand
+transition:transform 0.3s ease 0s; anu transition:transform 0.3s;
+tu ramdenimeze vaketebt:
+transition:transform 0.3s,background-color 0.3s,color 0.3s;  
+tu yvelas ertnairi dro aqvs davwert      transition:all 0.3s;
+
+
+    
+} */
