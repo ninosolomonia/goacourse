@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    
+}
+header{
+    background:linear-gradient(rgba(72, 52, 14, 0.392),rgba(23, 19, 1, 0.35)),url(/day43/images/golden-retriever-puppy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.section1 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.logo1{
+    width: 50px;
+    margin-left: 50px;
+    
+}
+.section1 p{
+    color: black;
+    font-weight: 900;
+}
+h2{
+    color: brown;
+    width: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 40px;
+    
+
+}
+.btn1{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+}
+.btn2{
+    background-color: rgb(229, 197, 15);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+}
+.section2{
+    max-width: 80%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    
+}
+.section2 h1{
+    font-size: 60px;
+    color: white;
+    margin: 20px;
+    width: 30%;
+}
+.section2 p{
+    color: white;
+    margin: 20px;
+    width: 30%;
+    letter-spacing: 1px;
+}
+.btn3{
+    padding: 14px 20px;
+    background-color: rgba(197, 159, 53, 0.958);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin: 20px;
+}
