@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header{
+    background:url(./images/shutterstockCKA_2366092343.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+header:hover{
+    background: url(./images/sddefault.jpg) no-repeat cente;
+    background-size: cover;
+    transition: 1s;
+    background-size: cover;
+} */
+/*.navbar-left-right{
+    height: 80px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-left nav ul{
+    display: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: bisque;
+    
+}
+li,a{
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    color: beige;
+}
+@media (min-width:600px){
+    .navbar-left nav ul{
+        display: block;
+    }
+
+}
+*/
+header{
+    background: url(./images/technology-7111763_1280.jpg) no-repeat center;
+    background-size: cover;
+    background-color: rgb(20, 20, 91);
+    height: 100vh;
+    
+}
+.div-for-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.left-header{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px 30px;
+}
+.left-header i{
+    width: 50px;
+    background: linear-gradient(60deg,white,rgb(0, 0, 6));
+    height: 20px;
+}
+.left-header h1{
+    color: white;
+}
+.right-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    color: white;
+    padding-top: 1rem;
+}
+.right-header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.login button{
+    background: linear-gradient(black,blue);
+    color: rgb(247, 244, 244);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+.submit-cv button{
+    background-color: blue;
+    padding: 8px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.submit-vacancy button{
+    background-color: rgb(62, 62, 83);
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+.job-alerts button{
+    background-color: rgb(0, 0, 8);
+    color: white;
+    border: none;
+}
+.submit-cv button:hover, .job-alerts button:hover,.submit-vacancy button:hover,.login button:hover,.login button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color: aliceblue;
+    color: blue;
+}
+.saved-jobs,.register,.login{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.right-header-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.right-header-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4.5rem;
+    list-style-type: none;
+    
+}
+.right-header-bottom ul a{
+    text-decoration: none;
+    color: white;
+    
+}
+.div-for-hero-section{
+    width: 100%;
+    padding-top: 5rem;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 5rem;
+}
+.section2 h1{
+    color: white;
+    font-size: 55px;
+    letter-spacing: 1px;
+    animation-name: shemosvla;
+    animation-duration: 3s;
+}
+@keyframes shemosvla{
+    0%{
+        
+    }
+}
+.section2 div{
+    display: flex;
+    gap: 2rem;
+}
+.section2 div input{
+    padding: 8px 40px;
+    border-radius: 5px;
+}
+.section2 div button{
+    padding: 5px 35px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.section2 button{
+    padding: 8px 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.section2 h2{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.section2 button{
+    padding: 12px 30px;
+}
